@@ -1,0 +1,17 @@
+format = """
+$directory$nodejs$golang $git_branch
+[⟫](bold green) """
+
+scan_timeout = 10
+
+[nodejs]
+format = "[ at $version](green)"
+
+[golang]
+format = "[ﳑ at $version](cyan)"
+
+
+[git_branch]
+symbol = " "
+truncation_length = 10
+truncation_symbol = ""
