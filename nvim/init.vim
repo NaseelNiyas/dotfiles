@@ -19,6 +19,7 @@ Plug 'morhetz/gruvbox'
 Plug 'norcalli/nvim-colorizer.lua'
 Plug 'junegunn/fzf'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 Plug 'HerringtonDarkholme/yats.vim'
 " Emmet
 Plug 'mattn/emmet-vim'
