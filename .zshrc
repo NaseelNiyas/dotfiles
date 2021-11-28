@@ -32,3 +32,5 @@ alias ~='cd ~'
 alias ..='cd ..'
 alias ...='cd ../../'
 
+alias c=clear
+source /Users/naseel/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

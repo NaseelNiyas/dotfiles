@@ -1,5 +1,5 @@
 format = """
-$directory$nodejs$golang $git_branch
+$directory$nodejs$golang $git_branch $rust
 [⟫](bold green) """
 
 scan_timeout = 10
@@ -10,6 +10,8 @@ format = "[ at $version](green)"
 [golang]
 format = "[ﳑ at $version](cyan)"
 
+[rust]
+format = " at [$version](red bold)"
 
 [git_branch]
 symbol = " "
