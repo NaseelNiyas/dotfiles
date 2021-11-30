@@ -1,8 +1,3 @@
-
-#### FIG ENV VARIABLES ####
-# Please make sure this block is at the start of this file.
-[ -s ~/.fig/shell/pre.sh ] && source ~/.fig/shell/pre.sh
-#### END FIG ENV VARIABLES ####
 # ~/.zshrc
 
 eval "$(starship init zsh)"
@@ -23,6 +18,7 @@ export PATH="$PATH:/Users/naseel/flutter/bin"
 #
 #
 alias ls='exa -l --icons'
+alias la='exa -l --icons -a'
 
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
@@ -31,6 +27,6 @@ alias c=clear
 alias ~='cd ~'
 alias ..='cd ..'
 alias ...='cd ../../'
-
 alias c=clear
+alias lvim='/Users/naseel/.local/bin/lvim'
 source /Users/naseel/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
