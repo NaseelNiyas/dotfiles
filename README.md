@@ -8,16 +8,19 @@
 <hr />
 
 <br />
+
 ## Alacritty
-<img src='img/alacritty'/>
+<img src='img/alacritty.png'/>
 <hr />
 
 <br />
+
 ## Neovim:
 <img src='img/nvim.png' />
 <hr />
 
 <br />
+
 ## Starship
 <img src='img/starship.png' />
 <hr />
