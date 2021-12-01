@@ -59,10 +59,10 @@ colors:
 
 font:
   normal:
-    family: 'CaskaydiaCove Nerd Font Mono'
-
+    family: 'VictorMono Nerd Font Mono'
+    style: Regular
   italic:
-    family: 'CaskaydiaCove Nerd Font Mono'
+    family: 'VictorMono Nerd Font Mono'
     style: Italic
 
   size: 24
